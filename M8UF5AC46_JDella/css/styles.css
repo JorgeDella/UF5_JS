@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    background-color: azure;
+}
+.ext {
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    border-radius: 25px;
+    padding: 25px;
+    margin: auto;
+    width: 500px;
+}
+.ext #finestra {
+    background-color: lightslategray;
+    border: 5px solid black;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: large;
+    text-align: right;
+    height: 50px;
+    width: 400px;
+}
+.opt {
+    align-items: center;
+    display: inline-flex;
+}
+img {
+    width: 270px;
+    height: 75px;
+    border-radius: 5px;
+}
+.contr {
+    background-color: firebrick;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+    height: 75px;
+    width: 75px;
+    margin: 5px;
+}
+h2 {
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+}
+.boto {
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+    height: 75px;
+    width: 75px;
+    margin: 5px;
+}
+#divid, #mult, #rest, #sum, #igual {
+    background-color: orange;
+}
+#decim {
+    background-color: darkgoldenrod;
+}
+.contr:hover, .boto:hover {
+    opacity: 75%;
+}

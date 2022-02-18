@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <title>TriviaApi-js</title>
+</head>
+<body id="trivia" onload="agafar()">
+    <h1>TriviaApi-js</h1>
+    <div id="contingut"></div>
+    <h2>Deports</h2>
+    <ol type="a" class="preg" id="pr1">
+        <h3>Quants músculs té el cos humà?</h3>
+        <div>
+            <button id="cass" value="true" onclick="resposta('correct')">Aprox. 650.</button>
+            <button id="cass" value="false" onclick="resposta('incorr')">Aprox. 420.</button>
+        </div>
+        <div>
+            <button id="cass" value="false" onclick="resposta('incorr')">Aprox. 370.</button>
+            <button id="cass" value="false" onclick="resposta('incorr')">2, el cor i el cervell.</button>
+        </div>
+    </ol>
+    <ol type="a" class="preg" id="pr2">
+        <h3>Quina és la lesió més freqüent entre els corredors?</h3>
+        <div>
+            <button id="cass" value="false" onclick="resposta('incorr')">El canell.</button>
+            <button id="cass" value="false" onclick="resposta('incorr')">El turmell.</button>
+        </div>
+        <div>
+            <button id="cass" value="true" onclick="resposta('correct')">El genoll.</button>
+            <button id="cass" value="false" onclick="resposta('incorr')">L'abdomen.</button>
+        </div>
+    </ol>
+    <ol type="a" class="preg" id="pr3">
+        <h3>Quants jugadors hi ha en un equip de beisbol?</h3>
+        <div>
+            <button id="cass" value="false" onclick="resposta('incorr')">Hi ha 7 jugadors.</button>
+            <button id="cass" value="true" onclick="resposta('correct')">Hi ha 9 jugadors.</button>
+        </div>
+        <div>
+            <button id="cass" value="false" onclick="resposta('incorr')">Hi ha 10 jugadors.</button>
+            <button id="cass" value="false" onclick="resposta('incorr')">Hi ha 14 jugadors.</button>
+        </div>
+    </ol>
+    <ol type="a" class="preg" id="pr4">
+        <h3>Què significa NBA?</h3>
+        <div>
+            <button id="cass" value="false" onclick="resposta('incorr')">Agrupació de Basquet Nominal.</button>
+            <button id="cass" value="false" onclick="resposta('incorr')">No Busquis Aparicions.</button>
+        </div>
+        <div>
+            <button id="cass" value="true" onclick="resposta('correct')">Associació Nacional de Basquetbol.</button>
+            <button id="cass" value="false" onclick="resposta('incorr')">Nominació als Bons Alumnes.</button>
+        </div>
+    </ol>
+    <ol type="a" class="preg" id="pr5">
+        <h3>Quina mida té una piscina de natació olímpica?</h3>
+        <div>
+            <button id="cass" value="false" onclick="resposta('incorr')">100x35m.</button>
+            <button id="cass" value="false" onclick="resposta('incorr')">20x10m.</button>
+        </div>
+        <div>
+            <button id="cass" value="true" onclick="resposta('correct')">50x25m.</button>
+            <button id="cass" value="false" onclick="resposta('incorr')">15x15m.</button>
+        </div>
+    </ol>
+    <script type="text/javascript" src="../js/trivial-api.js"></script>
+</body>
+</html>

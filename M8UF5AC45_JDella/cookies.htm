@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/styles.css">
+        <title>Cookies</title>
+    </head>
+    <body>
+        <form action="#salutacio">
+            <div class="general_1">
+                <div class="div_2">
+                    <p>Usuari: </p>
+                </div>
+                <div class="div_3">
+                    <input type="text" id="usuari1">
+                </div>
+            </div>
+            <div class="general_1">
+                <div class="div_2">
+                    <p>Contrasenya:</p>
+                </div>
+                <div class="div_3">
+                    <input type="password" id="passwd1">
+                </div>
+            </div>
+            <div class="general_1">
+                <div class="div_2">
+                    <p>Repeteix la contrasenya: </p>
+                </div>
+                <div class="div_3">
+                    <input type="password" id="passwd2">
+                </div>
+            </div>
+            <div class="boto">
+                <button type="button" onclick=login()>Comprovar</button>
+            </div>
+            <div class="general_1">
+                <div class="div_2">
+                    <p>Nom: </p>
+                </div>
+                <div class="div_3">
+                    <input type="text" id="nom">
+                </div>
+            </div>
+            <div class="general_1">
+                <div class="div_2">
+                    <p>Cognom: </p>
+                </div>
+                <div class="div_3">
+                    <input type="text" id="cognom">
+                </div>
+            </div>
+            <div class="boto">
+                <button class="seleccio" onclick=save()>Guardar dades</button>
+                <button class="seleccio" type="button" onclick=copy()>Recuperar dades</button>
+                <button class="seleccio" onclick=remove()>Esborrar dades</button>
+            </div>
+        </form>
+        <script type="text/javascript" src="js/cookies.js"></script>
+    </body>
+</html>

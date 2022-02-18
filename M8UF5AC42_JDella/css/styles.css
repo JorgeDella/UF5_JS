@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+}
+.general {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.llums {
+    margin: 25px;
+    justify-content: center;
+}
+.marcador {
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 25px;
+    height: 75px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/styles.css">
+        <title>Calculadorsa_JS</title>
+    </head>
+    <body>
+        <h1>CALCULADORA JAVASCRIPT</h1>
+        <form name="calculadora">
+            <div class="ext">
+                <input type="text" id="finestra" name="ans" value="">
+                <h2>CASIO</h2>
+                <div class="opt">
+                    <img src="./img/Panel.png" alt="Panel-png">
+                    <input type="button" value="AC" class="contr" id="clear" onclick=calc(this)>
+                </div>
+                <div class="num">
+                    <div class="line1">
+                        <input type="button" value="7" class="boto" id="num7" onclick=calc(this)>
+                        <input type="button" value="8" class="boto" id="num8" onclick=calc(this)>
+                        <input type="button" value="9" class="boto" id="num9" onclick=calc(this)>
+                        <input type="button" value="/" class="boto" id="divid" onclick=calc(this)>
+                    </div>
+                    <div class="line2">
+                        <input type="button" value="4" class="boto" id="num4" onclick=calc(this)>
+                        <input type="button" value="5" class="boto" id="num5" onclick=calc(this)>
+                        <input type="button" value="6" class="boto" id="num6" onclick=calc(this)>
+                        <input type="button" value="*" class="boto" id="mult" onclick=calc(this)>
+                    </div>
+                    <div class="line3">
+                        <input type="button" value="1" class="boto" id="num1" onclick=calc(this)>
+                        <input type="button" value="2" class="boto" id="num2" onclick=calc(this)>
+                        <input type="button" value="3" class="boto" id="num3" onclick=calc(this)>
+                        <input type="button" value="-" class="boto" id="rest" onclick=calc(this)>
+                    </div>
+                    <div class="line4">
+                        <input type="button" value="0" class="boto" id="num0" onclick=calc(this)>
+                        <input type="button" value="." class="boto" id="decim" onclick=calc(this)>
+                        <input type="button" value="=" class="boto" id="igual" onclick=calc(this)>
+                        <input type="button" value="+" class="boto" id="sum" onclick=calc(this)>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <script type="text/javascript" src="js/calculadora.js"></script>
+    </body>
+</html>
