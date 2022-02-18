@@ -24,21 +24,16 @@ function save() {
     var cognom_s=document.getElementById("cognom").value;
     sessionStorage.setItem("nom",nom_s)
     sessionStorage.setItem("cognom",cognom_s)
-    console.log(sessionStorage.getItem("nom"))
-    console.log(sessionStorage.getItem("cognom"))
-    alert ("S'han emmagatzemat les dades")
 }
 
 function copy() {
-    var nom=document.getElementById("nom").value;
-    var cognom=document.getElementById("cognom").value;
-    nom=sessionStorage.getItem("nom")
-    cognom=sessionStorage.getItem("cognom")
-    alert ("S'han copiat les dades")
+    var nom=document.getElementById("nom");
+    var cognom=document.getElementById("cognom");
+    nom.value=sessionStorage.getItem("nom")
+    cognom.value=sessionStorage.getItem("cognom")
 }
 
 function remove() {
-    sessionStorage.clear
-    alert ("S'han eliminat les dades")
+    sessionStorage.clear()
 }
  
